@@ -1,0 +1,119 @@
+{
+  "H1_emptyCartCheckout": {
+    "checkoutEnabled": true,
+    "total": "Total: $0.00",
+    "header": "Thank you for your order!"
+  },
+  "H2_formValidation": {
+    "urlAfterWhitespace": "https://www.saucedemo.com/checkout-step-two.html",
+    "maxlenAccepted": 5000
+  },
+  "H3_resetAppState": {
+    "badgeBefore": "2",
+    "badgeAfter": 0,
+    "removeButtons": 2,
+    "badgeAfterClick": 0,
+    "removeAfterReload": 0
+  },
+  "H4_cartAcrossUsers": {
+    "localStorageAfterLogout": {
+      "backtrace-guid": "e83a6259-5fe8-4689-9f56-eb62ef28f565",
+      "backtrace-last-active": "1791306787139",
+      "cart-contents": "[2]"
+    },
+    "badgeForNextUser": "1",
+    "items": [
+      "Sauce Labs Onesie"
+    ]
+  },
+  "H5_cookieAuth": {
+    "onInventory": true,
+    "directAccessError": "Epic sadface: You can only access '/inventory.html' when you are logged in.",
+    "lockedBypass": false,
+    "cookies": [
+      {
+        "name": "session-username",
+        "httpOnly": false,
+        "secure": false,
+        "expires": 1791307399
+      }
+    ]
+  },
+  "H6_sort": {
+    "first": "Sauce Labs Onesie",
+    "sortAfter": "az",
+    "firstAfter": "Sauce Labs Backpack",
+    "pricesHiLo": [
+      49.99,
+      29.99,
+      15.99,
+      15.99,
+      9.99,
+      7.99
+    ],
+    "sortedDesc": true
+  },
+  "H7_invalidProduct": {
+    "name": "ITEM NOT FOUND",
+    "price": "$√-1",
+    "addBtn": 1,
+    "addedInvalid": {
+      "badge": "1",
+      "cartItems": []
+    },
+    "footer": "© 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy"
+  },
+  "H8_totals": {
+    "prices": [
+      29.99,
+      15.99,
+      49.99
+    ],
+    "sum": 95.97,
+    "sub": "Item total: $95.97",
+    "tax": "Tax: $7.68",
+    "total": "Total: $103.65",
+    "qty": [
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "H9_backAfterFinish": {
+    "backUrl": "https://www.saucedemo.com/checkout-step-two.html",
+    "backItems": 0
+  },
+  "H10_login": {
+    "trailingSpace": {
+      "ok": false,
+      "err": "Epic sadface: Username and password do not match any user in this service"
+    },
+    "upperCase": {
+      "ok": false,
+      "err": "Epic sadface: Username and password do not match any user in this service"
+    },
+    "emptyPwd": {
+      "ok": false,
+      "err": "Epic sadface: Password is required"
+    },
+    "lockedOut": {
+      "ok": false,
+      "err": "Epic sadface: Sorry, this user has been locked out."
+    },
+    "passwordType": "password"
+  },
+  "H11_backAfterLogout": {
+    "url": "https://www.saucedemo.com/",
+    "error": "Epic sadface: You can only access '/inventory.html' when you are logged in."
+  },
+  "H12_a11y": {
+    "loginLabels": 0,
+    "imgsNoAlt": 0,
+    "cartLinkName": {
+      "text": "",
+      "aria": "Cart, empty"
+    },
+    "burgerName": "Open Menu",
+    "lang": "en"
+  }
+}

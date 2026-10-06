@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-qa-assessment",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "typecheck": "tsc -p .",
+    "explore": "node exploration/probe.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "SauceDemo QA assessment: exploratory findings + Playwright E2E checkout test",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
