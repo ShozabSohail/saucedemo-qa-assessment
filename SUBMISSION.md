@@ -2,7 +2,7 @@
 
 **Application under test:** https://www.saucedemo.com/ · **Account:** `standard_user` / `secret_sauce`
 **Test date:** 6 Oct 2026 · Chromium 153 (Playwright 1.63) · Windows 11
-**Repository:** `<add public GitHub URL>` (runnable test and setup steps in [README.md](README.md))
+**Repository:** https://github.com/ShozabSohail/saucedemo-qa-assessment (runnable test and setup steps in [README.md](README.md))
 
 ---
 
